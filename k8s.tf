@@ -10,7 +10,7 @@ locals {
 
 module "k8s_label" {
   source  = "cloudposse/label/null"
-  version = "0.24.1"
+  version = "0.25.0"
 
   attributes = ["k8s"]
   context    = module.this.context
